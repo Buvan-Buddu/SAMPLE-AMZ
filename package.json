@@ -1,0 +1,9 @@
+{
+  "name": "simple-amazon",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=./index.html",
+    "serve-py": "python -m http.server 3000"
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Amazon - Home</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="shop-body">
+  
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header-left">
+      <img src="images/logo.png" alt="Simple Amazon" class="header-logo">
+      <h1>Simple Amazon</h1>
+    </div>
+
+    <div class="header-center">
+      <input type="text" id="search" placeholder="Search for products...">
+      <button onclick="searchProducts()">Search</button>
+    </div>
+
+    <div class="header-right">
+      <a href="cart.html" class="cart-link">🛒 Cart (<span id="cart-count">0</span>)</a>
+      <a href="orders.html" class="order-link">📦 Orders</a>
+      <a href="index.html" class="logout-btn">Logout</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+   
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2>Welcome to Simple Amazon</h2>
+        <p>Shop the best deals, latest gadgets, and trendy fashion in one place!</p>
+        <a href="#products" class="hero-btn">Start Shopping</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/shop-with-love.svg" alt="Shop with Love" class="hero-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <main id="products" class="shop-container">
+    <h2>Featured Products</h2>
+    <div id="product-list" class="product-grid">
+      <!-- products will load dynamically -->
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 Simple Amazon. All Rights Reserved.</p>
+  </footer>
+
+  <script src="shop.js"></script>
+</body>
+</html>

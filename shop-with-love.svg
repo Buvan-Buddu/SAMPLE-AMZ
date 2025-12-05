@@ -1,0 +1,29 @@
+<svg viewBox="0 0 224 224" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="112" cy="112" r="112" fill="#f5e6f0"/>
+  
+  <!-- Shopping cart -->
+  <g transform="translate(112, 112)">
+    <!-- Cart handle -->
+    <path d="M -35 -25 Q -35 -50 0 -50 Q 35 -50 35 -25" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Cart body -->
+    <path d="M -40 -20 L -35 20 Q -35 25 -30 25 L 30 25 Q 35 25 35 20 L 40 -20 Z" stroke="#333" stroke-width="2.5" fill="none"/>
+    
+    <!-- Cart top line (dotted) -->
+    <line x1="-30" y1="-20" x2="30" y2="-20" stroke="#333" stroke-width="2" stroke-dasharray="4,3"/>
+    
+    <!-- Wheels -->
+    <circle cx="-20" cy="28" r="5" stroke="#333" stroke-width="2" fill="none"/>
+    <circle cx="20" cy="28" r="5" stroke="#333" stroke-width="2" fill="none"/>
+    
+    <!-- Heart inside cart -->
+    <g transform="translate(0, -5)">
+      <path d="M -12 -8 Q -12 -12 -8 -12 Q -4 -12 0 -8 Q 4 -12 8 -12 Q 12 -12 12 -8 Q 12 -4 0 4 Q -12 -4 -12 -8 Z" fill="#ff69b4"/>
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <text x="112" y="160" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Shop with Love❤</text>
+  <text x="112" y="180" font-size="12" text-anchor="middle" fill="#666">EST. 2021</text>
+</svg>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Simple Amazon</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+<nav>
+    <div class="nav-left">
+        <h1><a href="index.html">Simple Amazon</a></h1>
+    </div>
+    <div class="nav-center">
+        <input type="text" id="search-input" placeholder="Search for products...">
+        <button onclick="searchProducts()">Search</button>
+    </div>
+    <div class="nav-right">
+        <a href="cart.html">🛒 Cart (<span id="cart-count">0</span>)</a>
+        <a href="orders.html">📦 Orders</a>
+        <a href="index.html">🚪 Logout</a>
+    </div>
+</nav>
+
+<hr>
+
+<main>
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="images/t-shirt.jpg" alt="T-Shirt" class="product-image">
+                <h3>T-Shirt</h3>
+                <p>₹499</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/jeans.jpg" alt="Jeans" class="product-image">
+                <h3>Jeans</h3>
+                <p>₹899</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shoes.jpg" alt="Shoes" class="product-image">
+                <h3>Shoes</h3>
+                <p>₹1999</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/smartwatch.jpg" alt="Smart Watch" class="product-image">
+                <h3>Smart Watch</h3>
+                <p>₹2999</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/hoodie.jpg" alt="Hoodie" class="product-image">
+                <h3>Hoodie</h3>
+                <p>₹799</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/ap.webp" alt="Accessory Pack" class="product-image">
+                <h3>Accessory Pack</h3>
+                <p>₹899</p>
+                <button>Add to Cart</button>
+            </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2025 Simple Amazon. All Rights Reserved.</p>
+        </footer>
+
+        <script src="shop.js"></script>
+        </body>
+        </html>
